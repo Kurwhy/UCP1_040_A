@@ -1,0 +1,114 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background-color: #aeb8c4 !important;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.clock {
+    font-size: 1.5rem;
+    color: #343a40;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.date-info {
+    font-size: 1rem;
+    color: #343a40;
+}
+
+.welcome-message {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.btn-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    transition: opacity 0.3s ease; 
+}
+
+.btn-container button:hover {
+    opacity: 0.7;
+}
+
+.btn-container button:active {
+    opacity: 0.5;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+#gallery .photo {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgb(243, 235, 235);
+    transition: transform 0.3s ease;
+    border: 2px solid #fff4f4;
+    width: 300px;
+    height: 200px;
+}
+
+#gallery .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
